@@ -8,4 +8,4 @@ Neste desafio você deve criar uma página de `coming soon` para o lançamento d
 
 Figma: https://www.figma.com/file/oDZqw3v8fem3v3RC7bTKV5/DD-%2F-Countdown/duplicate
 
-[![Website](./images/sidebar.png)](https://vitorgaletti.github.io/desafio-countdown/)
+[![Website](./images/countdown.png)](https://vitorgaletti.github.io/desafio-countdown/)
