@@ -28,20 +28,49 @@
             <li>Minutos</li>
             <li>Segundos</li>
           </ul>
-          <p id="countdown">08 : 12 : 44 : 28</p>
+          <p id="countdown"></p>
         </div>
 
         <div class="footer">
           <p>Inscreva-se para saber mais sobre o lançamento</p>
 
-          <button class="subscribe">Inscreva-se</button>
+          <button class="subscribe" onclick="Modal.toggle()">
+            Inscreva-se
+          </button>
         </div>
       </div>
 
       <div class="image-rocket"></div>
     </main>
+
+    <div class="modal-overlay active">
+      <div class="modal">
+        <div id="form">
+          <h2>Inscreva-se</h2>
+          <form action="">
+            <div class="input-group">
+              <label for="name">Nome: </label>
+              <input type="text" name="name" id="name" placeholder="Nome" />
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+
+            <div class="input-group actions">
+              <a href="#" onclick="Modal.toggle()">Cancelar</a>
+              <button class="button" onclick="Modal.send()">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="bottom-image"></div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
